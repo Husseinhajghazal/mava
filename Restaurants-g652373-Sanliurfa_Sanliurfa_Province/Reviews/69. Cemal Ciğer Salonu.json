@@ -1,0 +1,47 @@
+[
+  {
+    "restaurant_name":"69. Cemal Ciğer Salonu",
+    "user_name":"BURAK PAŞA",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/zimzirik",
+    "rating":1,
+    "visit_date":"Şub 2019",
+    "travel_type":"Yalnız",
+    "review_title":"BURAK PAŞA",
+    "review_text":"Porsiyonlarla oynuyor küçültüp veriyor ve lezzetli değil hijyen hiç yok değmez 🤔🤔 piazzaya geçip orada Ocakbaşı tarzı lokantaları seçebilirsiniz.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"69. Cemal Ciğer Salonu",
+    "user_name":"ontturizm",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/ontturizm",
+    "rating":5,
+    "visit_date":"Eyl 2018",
+    "travel_type":"Aile",
+    "review_title":"ontturizm",
+    "review_text":"herkese tavsiye ederim. ciğer dürümün içine ince doğranmış soğanı ve taze nane yapraklarını koyup urfanın vazgeçilmez isoduyla harika oluyor",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"69. Cemal Ciğer Salonu",
+    "user_name":"Memet B",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/679memetb",
+    "rating":5,
+    "visit_date":"Eyl 2017",
+    "travel_type":"",
+    "review_title":"Memet B",
+    "review_text":"Enver usta cok güzel döner yapiyor gercekten kişinin nasıl ne istedigini anliyor ellerine saglık usta basarıların devamını dilerim buhara muhtarlıgı ;)",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

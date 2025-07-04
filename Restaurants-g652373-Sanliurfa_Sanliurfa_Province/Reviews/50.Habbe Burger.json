@@ -1,0 +1,32 @@
+[
+  {
+    "restaurant_name":"50.Habbe Burger",
+    "user_name":"Buse P",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/25busep",
+    "rating":5,
+    "visit_date":"Mar 2024",
+    "travel_type":"Çiftler",
+    "review_title":"Buse P",
+    "review_text":"Artık burger king vs diğer burger markaları artık tatmin etmiyor diye hamburger yeri keşfettik. Urfa gibi yerde böyle mekanlar bulmak gerçekten güç.lezzet harikaydı doyurdu hemde tık basa ilgi alaka cok iyiydi.herkesin gidebileceği bir mekan",
+    "value_rating":5,
+    "service_rating":5,
+    "food_rating":5,
+    "atmosphere_rating":5,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"50.Habbe Burger",
+    "user_name":"eyyüp sabri",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/Curious58433386859",
+    "rating":5,
+    "visit_date":"Ara 2022",
+    "travel_type":"Aile",
+    "review_title":"eyyüp sabri",
+    "review_text":"Türkiye’de yediğim en iyi hamburgerdi diyebilirim Türkiye’nin en iyi restoranlarında hamburger yeme fırsatı buldum çok çeşit deneyinledim çok et tattım ama bu bir başkaydı",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

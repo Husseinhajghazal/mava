@@ -1,0 +1,47 @@
+[
+  {
+    "restaurant_name":"64. Şükrü Usta Bayram Lokantası",
+    "user_name":"Sadullah T",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/sadullaht2023",
+    "rating":5,
+    "visit_date":"Kas 2023",
+    "travel_type":"Arkadaşlar",
+    "review_title":"Sadullah T",
+    "review_text":"Patlıcanlı, sade, kuşbaşı, et pirzolası harika. Fiyatları uygun geldi bana. Ayran bostana lebeni ücretsiz. Tatlıları lezzetli. Sabah tirt çorbası da harikaydı. Bu fiyatlara bu büyük porsiyonlar için teşekkür ederim.",
+    "value_rating":4,
+    "service_rating":5,
+    "food_rating":5,
+    "atmosphere_rating":4,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"64. Şükrü Usta Bayram Lokantası",
+    "user_name":"Serap D",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/131serapd",
+    "rating":1,
+    "visit_date":"Tem 2023",
+    "travel_type":"Aile",
+    "review_title":"Serap D",
+    "review_text":"Eşim patlıcanlı yedi . Ben tadına baktım.  Ağzıma kıkırdağımsı bir parça geldi. Devam etmedim . Hesap ödemeye gidince 150 lira patlıcanlı kebap yanında bir de ben tadına baktım diye 50 lira daha istediler. Ben böyle ayıp görmedim . Böyle usül görmedim . Bir daha asla gitmem ve kimseye önermem.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"64. Şükrü Usta Bayram Lokantası",
+    "user_name":"Mehmet D",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/0mehmetd",
+    "rating":5,
+    "visit_date":"Nis 2021",
+    "travel_type":"Yalnız",
+    "review_title":"Mehmet D",
+    "review_text":"Urfanın yerlilerinin vazgeçmediği ve ısrarla tavsiye ettiği restoran. Yemekler ve tatlilar nefis.Urfaya gelince yemeden gitmeyin. Yedigim en lezzetli kebaptı kemeli kebap. Dışı citir citir ici yumusacik. Bayılacaksınız",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

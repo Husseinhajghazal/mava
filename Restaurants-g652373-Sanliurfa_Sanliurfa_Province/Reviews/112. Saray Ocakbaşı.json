@@ -1,0 +1,62 @@
+[
+  {
+    "restaurant_name":"112. Saray Ocakbaşı",
+    "user_name":"Oskar A",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/528oskara",
+    "rating":1,
+    "visit_date":"Mar 2019",
+    "travel_type":"Aile",
+    "review_title":"Oskar A",
+    "review_text":"3 kişi gittik.3 tane urfa kebap istedik gelen serviste salata yoktu diyebiliriz.\nYemek sonrası çay yoktu. 80 lira hesap geldi.\nDiyarbakır bu işte bin basar.Sofrayı donatıyorlar.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"112. Saray Ocakbaşı",
+    "user_name":"yaman_emre",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/yaman_emre",
+    "rating":3,
+    "visit_date":"Eki 2017",
+    "travel_type":"",
+    "review_title":"yaman_emre",
+    "review_text":"Kalabalık grup şeklinde tavsiye üzerine ciğer yemeğe geldik ciğerden önce gelen salçalı soğan salatasına hayran kaldım.ciğere gelince aynı tadı başka yerlerde bulabilirsiniz.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"112. Saray Ocakbaşı",
+    "user_name":"Mehmet E",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/MehmetE1963",
+    "rating":5,
+    "visit_date":"Nis 2016",
+    "travel_type":"",
+    "review_title":"Mehmet E",
+    "review_text":"Eğer,benim için,damak tadı çok önemli diyorsanız,işte aradığınız mekan temiz,ferah,otantik bir ortam güler yüzlü personelle birleş,nce size geriye lezzetleri tatmak kalıyor.Afiyet olsun.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"112. Saray Ocakbaşı",
+    "user_name":"2011MTA",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/2011MTA",
+    "rating":2,
+    "visit_date":"Kas 2012",
+    "travel_type":"Arkadaşlar",
+    "review_title":"2011MTA",
+    "review_text":"Urfa'da son gunumuzde Saray'da ciger yedik. Butun lokantalarda oldugu gibi burada da menude fiyat yoktu, ama cigerin sehirde en fazla 5 lira oldugunu bildigimiz icin siparis vermeden fiyatini sormadik...hata etmisiz. \nCigeri cok begendik. Begendigimizi gorunce herhalde cesaretlenip, turist tarifesi : 5liralik cigere porsiyonu 20 lira hesap getirdiler. \nYemis bulundugumuz icin itiraz edemedik ama bu firsatcilik hic hosumuza gitmedi.\nUrfa bu zihniyetle gelisemez.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "restaurant_name":"77. Kebaçı Cevdet Usta",
+    "user_name":"mselam",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/mselam",
+    "rating":5,
+    "visit_date":"Şub 2019",
+    "travel_type":"Arkadaşlar",
+    "review_title":"mselam",
+    "review_text":"Geleneksel kebap arıyorsanız, Haşhaş (ha? Ha? Kebab) Şanlıurda en iyisidir ve en iyi ve en eski yer Birecik'tedir. Aile bu kebabı 1975'ten beri üretiyor. Birecik'te Fırat nehri tarafında benzin istasyonunun yanındadır. Çok temiz!",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"77. Kebaçı Cevdet Usta",
+    "user_name":"Omer K",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/212omerk",
+    "rating":5,
+    "visit_date":"Tem 2018",
+    "travel_type":"Aile",
+    "review_title":"Omer K",
+    "review_text":"Birecik deyince akla ilk gelen kebap haşhaş kebabı.Enfes tadı aroması hele birde acılısından yediyseniz damağınızda unutulmaz bir tat bırakan lezzet.Bu kadar övdügüm kebabı bence en iyi yiyeceğiniz mekan.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

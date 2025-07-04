@@ -1,0 +1,47 @@
+[
+  {
+    "restaurant_name":"37.Konak Restoran ve Kahvaltı Salonu",
+    "user_name":"Nihal A",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/753nihala",
+    "rating":5,
+    "visit_date":"Mar 2024",
+    "travel_type":"Arkadaşlar",
+    "review_title":"Nihal A",
+    "review_text":"Harika bir yer harika personel ekibi çok güler yüzlü ve ilgililer yemekleri enfes mutlak gidin bayıldıkkkk bence Urfa’daki en iyi mekan",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"37.Konak Restoran ve Kahvaltı Salonu",
+    "user_name":"Ramazan A",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/ramazana216",
+    "rating":4,
+    "visit_date":"Eki 2017",
+    "travel_type":"Arkadaşlar",
+    "review_title":"Ramazan A",
+    "review_text":"Fiyatlar viranşehir seviyesinde yani makul. Mekan tarihi ve ilgi çekici. Haşhaşlı kebap denenebilir.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"37.Konak Restoran ve Kahvaltı Salonu",
+    "user_name":"Murat D",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/477muratd",
+    "rating":5,
+    "visit_date":"Nis 2017",
+    "travel_type":"Çiftler",
+    "review_title":"Murat D",
+    "review_text":"hem yemek, hem mekan, hem çalışanların güler yüzlü olması açısından viransehirde en güzel mekan....😊",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

@@ -5,6 +5,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
+import re
 
 # --- Constants and Mappings ---
 turkish_months = {
@@ -18,16 +19,7 @@ travel_types = {
 }
 
 # --- Restaurants to Skip ---
-SKIP_RESTAURANTS = {
-    "3. Şehrazat Konağı",
-    "4. Sümer Lahmacun Pide ve Kebap Salonu",
-    "5. Livva Kebap Kahvaltı Restaurant",
-    "6. Gülbaba Restaurant",
-    "Şehr-i urfa",
-    "8. Tarihi Buz hanı",
-    "9. Kasr-ı Âlâ",
-    "10. Meşhur Ciğerci Aziz Ustanın Yeri"
-}
+SKIP_RESTAURANTS = {}
 
 # --- Utility Functions ---
 def convert_turkish_date(date_str):
@@ -48,9 +40,9 @@ def fetch_html(url, api_key):
     })
     if resp.status_code == 200:
         return BeautifulSoup(resp.text, 'html.parser')
-    raise Exception(f"Failed to fetch: {url} ({resp.status_code})")
+    raise Exception(f"Failed to fetch {url} ({resp.status_code})")
 
-def fetch_html_with_retry(url, api_key, max_retries=2):
+def fetch_html_with_retry(url, api_key, max_retries=10):
     """Fetch HTML content with retry logic."""
     for attempt in range(1, max_retries + 1):
         try:
@@ -77,8 +69,18 @@ def extract_reviews(soup, restaurant_name):
         paths = rating_tag.select("path") if rating_tag else []
         rate = sum(1 for p in paths if "a9.983" not in p.get("d", ""))
         visit_info_tag = review.select('div.biGQs._P.fiohW.ezezH')
-        visit_date = visit_info_tag[0].get_text(strip=True) if len(visit_info_tag) > 0 else ""
-        travel_type = visit_info_tag[1].get_text(strip=True) if len(visit_info_tag) > 1 else ""
+        visit_date = ""
+        travel_type = ""
+        if visit_info_tag and len(visit_info_tag) > 0:
+            try:
+                visit_date = visit_info_tag[0].get_text(strip=True)
+            except Exception:
+                visit_date = ""
+        if visit_info_tag and len(visit_info_tag) > 1:
+            try:
+                travel_type = visit_info_tag[1].get_text(strip=True)
+            except Exception:
+                travel_type = ""
         title_tag = review.select_one('a.BMQDV._F.Gv.wSSLS.SwZTJ.FGwzt.ukgoS')
         review_title = title_tag.get_text(strip=True) if title_tag else ""
         text_tag = review.select_one('span._d._c')
@@ -94,7 +96,10 @@ def extract_reviews(soup, restaurant_name):
             except Exception:
                 pass
         helpful_tag = review.select_one('span.biGQs._P.navcl')
-        helpful_vote_count = int(helpful_tag.get_text(strip=True).split()[0]) if helpful_tag else 0
+        try:
+            helpful_vote_count = int(helpful_tag.get_text(strip=True).split()[0]) if helpful_tag else 0
+        except Exception:
+            helpful_vote_count = 0
         reviews.append({
             "restaurant_name": restaurant_name,
             "user_name": user_name,
@@ -127,11 +132,16 @@ def extract_total_reviews(soup):
     """Extract the total number of reviews from the soup."""
     reviews_text = soup.select_one('div.biGQs._P.fiohW.kSNRl.KeZJf')
     if not reviews_text:
-        return None
+        return 0
     try:
         return int(reviews_text.get_text(strip=True).split()[2].replace('.', '').replace("(", '').replace(")", ''))
     except Exception:
-        return None
+        return 0
+
+def safe_filename(name):
+    # Remove invalid characters for Windows and Unix
+    name = re.sub(r'[\\/:*?"<>|]', '', name)
+    return name
 
 # --- Main Scraping Logic ---
 def main():
@@ -163,7 +173,7 @@ def main():
                 print(f"  Could not fetch first page for {restaurant_name}, skipping.")
                 continue
             # --- Retry extracting total reviews ---
-            for attempt in range(2):
+            for attempt in range(10):
                 total_reviews = extract_total_reviews(soup)
                 if total_reviews is not None:
                     break
@@ -171,33 +181,39 @@ def main():
                 soup = fetch_html_with_retry(link, api_key)
                 if soup is None:
                     break
-            if total_reviews is None:
-                print("  No review count found or could not parse review count after retries.")
-                continue
-            review_pages = total_reviews // 15 + 1
             reviews_data = []
-            for i in range(review_pages):
-                print(f"  Page {i+1}/{review_pages}")
-                # --- Retry extracting reviews ---
-                for attempt in range(2):
-                    try:
-                        reviews_data.extend(extract_reviews(soup, restaurant_name))
+            if total_reviews > 0:
+                review_pages = total_reviews // 15 + 1
+                for i in range(review_pages):
+                    print(f"  Page {i+1}/{review_pages}")
+                    # --- Retry extracting reviews and refetch page if not found ---
+                    for attempt in range(10):
+                        try:
+                            page_reviews = extract_reviews(soup, restaurant_name)
+                            if page_reviews:
+                                reviews_data.extend(page_reviews)
+                                break
+                            else:
+                                print(f"    Reviews component not found (attempt {attempt+1}), retrying fetch...")
+                                soup = fetch_html_with_retry(link if i == 0 else get_next_page_url(soup, i-1), api_key)
+                        except Exception as e:
+                            print(f"    Failed to extract reviews (attempt {attempt+1}): {e}")
+                            if attempt == 9:
+                                print("    Skipping this page after 10 failed attempts.")
+                    else:
+                        print(f"    Skipping restaurant {restaurant_name} after 10 failed attempts to extract reviews on page {i+1}.")
                         break
-                    except Exception as e:
-                        print(f"    Failed to extract reviews (attempt {attempt+1}): {e}")
-                        if attempt == 1:
-                            print("    Skipping this page after 2 failed attempts.")
-                next_page_url = get_next_page_url(soup, i)
-                if not next_page_url:
-                    print("  No more pages to scrape.")
-                    break
-                # --- Retry fetching next page ---
-                soup = fetch_html_with_retry(next_page_url, api_key)
-                if soup is None:
-                    print(f"  Failed to fetch next page after retries. Stopping further pages for this restaurant.")
-                    break
+                    next_page_url = get_next_page_url(soup, i)
+                    if not next_page_url:
+                        print("  No more pages to scrape.")
+                        break
+                    # --- Retry fetching next page ---
+                    soup = fetch_html_with_retry(next_page_url, api_key)
+                    if soup is None:
+                        print(f"  Failed to fetch next page after retries. Stopping further pages for this restaurant.")
+                        break
             # Save reviews
-            out_path = reviews_dir / f"{restaurant_name}.json"
+            out_path = reviews_dir / f"{safe_filename(restaurant_name)}.json"
             pd.DataFrame(reviews_data).to_json(out_path, orient="records", force_ascii=False, indent=2)
             print(f"Saved {len(reviews_data)} reviews to {out_path}")
 

@@ -1,0 +1,47 @@
+[
+  {
+    "restaurant_name":"65. Hira Kebap",
+    "user_name":"Dilan Yıldız Kızgın",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/dilgiz",
+    "rating":4,
+    "visit_date":"May 2022",
+    "travel_type":"",
+    "review_title":"Dilan Yıldız Kızgın",
+    "review_text":"Viranşehir de gidilebilecek en iyi lezzetlerden biri. Zaten şehir de belli bir saatten sonra kebap bulmakta zorlanıyorsunuz. Lezzetliydi ciğeri ve kebabı.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"65. Hira Kebap",
+    "user_name":"Ilyas O",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/ilyaso2019",
+    "rating":5,
+    "visit_date":"Şub 2019",
+    "travel_type":"Aile",
+    "review_title":"Ilyas O",
+    "review_text":"Çalışma saatleri 05:00 - 21:00\nUrfa kebap\nDomatesli kebap\nAdana kebap\nKuzu kuşbaşı\nTavuk şiş \nLahmacun\nPide çeşitleri\nSac tava\nSulu yemek çeşitleri\nCiğer \nKuzu pirzola\nTavuk pirzola\nPatlıcan kebap\nSalata çeşitleri",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":1
+  },
+  {
+    "restaurant_name":"65. Hira Kebap",
+    "user_name":"Ramazan A",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/ramazana216",
+    "rating":4,
+    "visit_date":"Nis 2017",
+    "travel_type":"Yalnız",
+    "review_title":"Ramazan A",
+    "review_text":"Servisi mesaide çalışan memur ve zamanı kısıtlı öğretmenler için gayet hızlı. Fiyatlar makul seviyede. Lahmacunu öneririm.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

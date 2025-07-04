@@ -1,0 +1,32 @@
+[
+  {
+    "restaurant_name":"53.Ceylanpınar Sofrası",
+    "user_name":"mustafa k",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/mustafakF1175OH",
+    "rating":1,
+    "visit_date":"Şub 2024",
+    "travel_type":"Arkadaşlar",
+    "review_title":"mustafa k",
+    "review_text":"Ciğer ve lahmacun yedik. Hiç lezzetli değildi ve diğer yerlere göre pahalıydı.  Tavsiye etmiyorum. İçerisi ferah bi yapıda .",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"53.Ceylanpınar Sofrası",
+    "user_name":"Koray BAKIR",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/kbcelebi",
+    "rating":5,
+    "visit_date":"Mar 2023",
+    "travel_type":"Aile",
+    "review_title":"Koray BAKIR",
+    "review_text":"Ceylanpınarda aileniz ile veya arkadaşlarınızla temiz ve güzel yemek yiyebileceğiniz çok güzel bir lokanta. Biz eşimle çok beğendik.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

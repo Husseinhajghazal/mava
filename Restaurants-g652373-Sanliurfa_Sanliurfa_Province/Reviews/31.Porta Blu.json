@@ -1,0 +1,32 @@
+[
+  {
+    "restaurant_name":"31.Porta Blu",
+    "user_name":"Cengiz",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/956cengizy",
+    "rating":5,
+    "visit_date":"May 2024",
+    "travel_type":"Aile",
+    "review_title":"Cengiz",
+    "review_text":"Hersey cok guzeldi çalışanlar çok iyi ve ilgiliydi ,samimi  ve guzel bir ortamdi teşekkürler ,her şey için teşekkürler,, murat bey e teşekkürler",
+    "value_rating":5,
+    "service_rating":5,
+    "food_rating":5,
+    "atmosphere_rating":5,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"31.Porta Blu",
+    "user_name":"tugbaerke",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/tugbaerke",
+    "rating":5,
+    "visit_date":"Nis 2024",
+    "travel_type":"Aile",
+    "review_title":"tugbaerke",
+    "review_text":"Son derece keyifli bir atmosferde yemek yedik, müzik dinledik ve eğlendik. Mekanın yetkilisi Ömer Bey’e, (her an masalarla ilgilendiği için) masamızla birebir ilgilenen İsmail Bey’e sonsuz teşekkürler. Şanlıurfa’ya geldiğinizde kendinizi evinizde hissetmek istiyorsanız mutlaka tercih edin…",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

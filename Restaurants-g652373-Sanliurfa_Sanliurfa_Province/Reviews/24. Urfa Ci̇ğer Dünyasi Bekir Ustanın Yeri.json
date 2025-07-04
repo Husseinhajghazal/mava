@@ -1,0 +1,47 @@
+[
+  {
+    "restaurant_name":"24. Urfa Ci̇ğer Dünyasi Bekir Ustanın Yeri",
+    "user_name":"Zelihan K",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/zelihank2024",
+    "rating":5,
+    "visit_date":"Ara 2024",
+    "travel_type":"Aile",
+    "review_title":"Zelihan K",
+    "review_text":"Ciğer sevmeyen biri olarak ciğere bayıldım.Calısanlarin ilgi ve alakası ıcın tesekkur ediyoruz Bekir ustanın yerini herkes denemeli",
+    "value_rating":5,
+    "service_rating":5,
+    "food_rating":5,
+    "atmosphere_rating":5,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"24. Urfa Ci̇ğer Dünyasi Bekir Ustanın Yeri",
+    "user_name":"Sev.oz",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/227sevcan_",
+    "rating":5,
+    "visit_date":"Ara 2021",
+    "travel_type":"Arkadaşlar",
+    "review_title":"Sev.oz",
+    "review_text":"Buraya bir tavsiye üzerine uçuş ekibiyle geldik.Bu kadar lezzetli bir kuşbaşı yediğimi hatırlamıyorum.Ciğer de kesinlikle çok lezzetliydi.Şefimiz bizim için bir süpriz de yaptı.Çok kibar ve çok yardımcı olan çalışanlar.Kendi elleriyle dürüm sardılar:) Teşekkürler",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"24. Urfa Ci̇ğer Dünyasi Bekir Ustanın Yeri",
+    "user_name":"Ahmet A",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/673ahmeta",
+    "rating":5,
+    "visit_date":"Eyl 2021",
+    "travel_type":"Arkadaşlar",
+    "review_title":"Ahmet A",
+    "review_text":"Hayatımda hiç ciğer yememiş olan bana, ertesi gün ciğer yemeye getirdi demem yeterli olur sanırım. Her şeyi işe mükemmel ama standart o kadar yüksek ki sanırım yine başka yerde ciğer yemeyeceğim.\nServis iyi kalite çok çok iyi, fiyatlar makul.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

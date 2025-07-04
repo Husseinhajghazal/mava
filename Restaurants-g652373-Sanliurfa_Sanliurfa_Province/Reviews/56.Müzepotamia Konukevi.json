@@ -1,0 +1,32 @@
+[
+  {
+    "restaurant_name":"56.Müzepotamia Konukevi",
+    "user_name":"Zeynep G",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/969zeynepg",
+    "rating":5,
+    "visit_date":"Nis 2024",
+    "travel_type":"Aile",
+    "review_title":"Zeynep G",
+    "review_text":"Çalışanlar çok tatlılar,ortamda gayet iyi sıra gecesine geldik başlamasına 1 saat kala gelmemize rağmen baya yardımcı oldular,yemekler baya güzeller,ortam güzel,sıra gecesinin olduğu yerin altı çok güzel kazı alanı var acayip iyi kötü hiçbir tarafı yok,kötü yorumlara aldanmayın gayet güzel bir mekan mutlaka tavsiye ederim.",
+    "value_rating":5,
+    "service_rating":5,
+    "food_rating":5,
+    "atmosphere_rating":5,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"56.Müzepotamia Konukevi",
+    "user_name":"Alican Ü",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/57alican_",
+    "rating":5,
+    "visit_date":"Eki 2022",
+    "travel_type":"Aile",
+    "review_title":"Alican Ü",
+    "review_text":"Tarihi dokusuyla lezzetleri ve eğlencesiyle Urfadaki nadir yerler mutlaka tavsiye ederim sıra gecesi kebaplar ikramlar",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "restaurant_name":"75. Ciğer Vadisi",
+    "user_name":"Osman KÖSE",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/osmankose",
+    "rating":4,
+    "visit_date":"Eyl 2019",
+    "travel_type":"",
+    "review_title":"Osman KÖSE",
+    "review_text":"Şanlıurfa'ya geldiğinizde mutlaka yemeniz gerekenlerden biri de yörenin geleneksel yemeği ciğerdir. Ciğer vadisi her anlamda uygun bir yer. Damak tadı hakim. Ciğeri pek sevmediğim halde güzel bir tat verilmiş. sevdim. Yanında son derece yakan biber de harika. Ortam temiz ve misafir görtürceğiniz bir yer. önerilir",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"75. Ciğer Vadisi",
+    "user_name":"Ahmet",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/ahmet63",
+    "rating":4,
+    "visit_date":"Mar 2019",
+    "travel_type":"Yalnız",
+    "review_title":"Ahmet",
+    "review_text":"Lezzetti iyi ama fiyat bir tık yüksek. Nezih bir ortam gayet temiz. Tavsiye ederim. \nYeni olmasına rağmen lezzetli biraz daha ciğer i geliştirmeliler",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":0
+  },
+  {
+    "restaurant_name":"75. Ciğer Vadisi",
+    "user_name":"mahneb",
+    "user_profile_link":"https:\/\/www.tripadvisor.com.tr\/Profile\/mahneb056",
+    "rating":5,
+    "visit_date":"Şub 2019",
+    "travel_type":"Aile",
+    "review_title":"mahneb",
+    "review_text":"yeni açılmış olmasına rağmen yılların restaurantlarının ciğer tadıyla yarışır durumda. eşim de ben de ciğerini çok beğendik.  \n\nİşletmenin sahibi Abdurrahman abinin masaya kadar gelip ilgilenmesi ihtiyacımızı sorması gayet memnun etti bizi. fiyat olarak da makul bir mekan.",
+    "value_rating":0,
+    "service_rating":0,
+    "food_rating":0,
+    "atmosphere_rating":0,
+    "helpful_vote_count":1
+  }
+]
